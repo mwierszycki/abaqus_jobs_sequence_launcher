@@ -39,7 +39,7 @@ inp_file_name-4.inp globalmodel=global_model_name
 ```
 There are a few limitations. First, the input option is used in the script internally so it cannot be defined as an additional option in `jobs.txt` file. Second, the INP file name cannot contain spaces. The script doesn't check the correctness of the list of options. Abaqus Launcher will do this when the job is started. If the incorrect option will be used the script will continue with the next job on the list.
 
-Run the script:
+Run the script - the name of the file with the list of jobs can be given as an argument::
 ```
 PS>runAbqJobSeq.ps1 [jobs_file_name.txt]
 ```
