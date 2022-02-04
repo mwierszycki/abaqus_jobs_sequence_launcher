@@ -41,7 +41,7 @@ There are a few limitations. First, the input option is used in the script inter
 
 Run the script:
 ```
-PS>runAbqJobSeq.ps1 jobs_file_name.txt
+PS>runAbqJobSeq.ps1 [jobs_file_name.txt]
 ```
 Launcher will not ask for the number of cpus which will be used for all jobs. The number of cpus can be defined as a job option.
 
