@@ -21,7 +21,7 @@ How many cores to use to run jobs? No of cores [from 1 to 6)]/[Q]uit")
 ```
 Type number of cores or `Q` to stop script.
 
-If the `jobs.txt` file will be found in the directory the script will ask if to use it:
+If the `jobs.txt` file will be found in the directory the script will ask if it should be used it:
 ```
 The jobs.txt file has been found. Would you use it? [Y]es/[N]o/[Q]uit
 ```
